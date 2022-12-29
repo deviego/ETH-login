@@ -3,7 +3,7 @@ let button = document.querySelector('button')
 
 
 const redirectTime = () => {
-  window.location.href = "https://metamask.io/" 
+  window.location = "https://metamask.io/" 
 }
 
 const HandleLogin = async () => {
