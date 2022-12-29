@@ -18,7 +18,7 @@ const HandleLogin = async () => {
 
 }else{
   alert("não possui conta mask")
-  HandleLogin()
+  redirectTime()
 }
 }
 button.addEventListener('click', HandleLogin())
