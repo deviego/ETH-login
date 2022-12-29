@@ -17,7 +17,7 @@ const HandleLogin = async () => {
     }
 
 }else{
-  alert("Você não possui conta Metamask, iremos te redirecionar para fazer sua conta na Metamask")
+  alert("Você não possui conta, iremos te redirecionar para fazer sua conta na Metamask")
   redirectTime()
 }
 }
