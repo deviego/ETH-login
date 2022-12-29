@@ -3,7 +3,7 @@ let button = document.querySelector('button')
 
 
 const redirectTime = () => {
-  window.location = "https://metamask.io/", "blank"
+  window.open("https://metamask.io/", 'blank') 
 }
 
 const HandleLogin = async () => {
@@ -17,7 +17,7 @@ const HandleLogin = async () => {
     }
 
 }else{
-  alert("não possui conta mask, iremos te redirecionar para fazer sua conta na Metamask")
+  alert("Você não possui conta Metamask, iremos te redirecionar para fazer sua conta na Metamask")
   redirectTime()
 }
 }
